@@ -860,13 +860,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         loadComposite(0, [
 
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne1/Sahne1Mevcut.gltf",
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne1/Sahne1Mevcutisik.gltf",
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne1/Sahne1Cerceve.gltf",
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne1/Sahne1Gridisik.gltf",
+            "./applications-20230306/applications/assets/DataModel11_3/Sahne1/Sahne1.gltf",
 
-        ],  [0, 2000, 4000, 6000], 
-            [0, 0, 0, 0], {
+        ],  [0, ], 
+            [0, ], {
 
             exclusive: false,
             resetOnLeave: true,
@@ -874,18 +871,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         loadComposite(1, [
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2Mevcut.gltf",   
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2Kapanacak.gltf",    
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2Acilicak.gltf",  
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2Acilicakisik.gltf",    
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2Cerceve.gltf",
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2Gridisik.gltf",          
+            "./applications-20230306/applications/assets/DataModel11_3/Sahne2/Sahne2.gltf",         
         ], 
 
-        [   0, 2000, 4000, 6000, 8000, 10000], 
+        [   0, ], 
         
         // HideAfter array - how long each part stays (0 = forever)
-        [ 0, 0, 0, 0, 0, 0], {
+        [ 0, ], {
 
             exclusive: false,
             resetOnLeave: true,
@@ -893,16 +885,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         loadComposite(2, [
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne3/Sahne3Mevcut.gltf",  
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne3/Sahne3Kapanacak.gltf",    
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne3/Sahne3Acilicak.gltf",
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne3/Sahne3isik.gltf",
-            "./applications-20230306/applications/assets/DataModel11_3/Sahne3/Sahne3cerceve.gltf",
+            "./applications-20230306/applications/assets/DataModel11_3/Sahne3/Sahne3.gltf",  
+
 
               
-        ], [0, 0, 0, 0, 0,],
+        ], [0, ],
 
-            [0, 0, 0, 0, 0, 0], {
+            [0, ], {
 
             exclusive: false,
             resetOnLeave: true,
